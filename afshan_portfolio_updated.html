@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Afshan Qureshi, a final-year BTech Computer Science Engineering student.">
+  <title>Afshan Qureshi | CSE Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home">AQ<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">FINAL-YEAR COMPUTER SCIENCE STUDENT</p>
+          <h1>Hi, I'm <span>Afshan Qureshi</span></h1>
+          <h2>Building my foundation in software development.</h2>
+          <p class="intro">I am a BTech Computer Science Engineering student interested in web development, problem-solving and learning how software works from frontend to backend.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Projects</a>
+            <a class="btn btn-outline" href="afshan.resume.pdf" target="_blank" rel="noopener">View Resume</a>
+          </div>
+          <p class="small-note">Open to fresher opportunities and learning-focused teams.</p>
+        </div>
+        <div class="hero-photo-wrap">
+          <img class="profile-photo" src="professional picture.jpeg" alt="Portrait of Afshan Qureshi">
+          <div class="photo-caption">Computer Science Engineering · 2027</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-lead">I am a final-year BTech student in Computer Science Engineering, working towards a career as a software developer.</p>
+        <p>I enjoy learning programming concepts, building practical projects and improving my understanding of web technologies. C++ is my primary programming language, and I am developing my skills in frontend and backend web development.</p>
+        <p>My current goal is to strengthen my fundamentals, build useful projects and prepare for an entry-level software development role where I can keep learning and contribute to a team.</p>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <p class="eyebrow">ACADEMIC BACKGROUND</p>
+        <h2 class="section-title">Education</h2>
+
+        <article class="education-card">
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>Bachelor of Technology – Computer Science Engineering</h3>
+            <p class="muted">Ballarpur Institute Of Technology · Dr. Babasaheb Ambedkar Technological University</p>
+            <p>Expected graduation: 2027</p>
+          </div>
+        </article>
+
+        <article class="education-card">
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>Higher Secondary Education (11th &amp; 12th)</h3>
+            <p class="muted">Shri Shivaji College, Rajura</p>
+            <p>Academic period: 2021–2022</p>
+          </div>
+        </article>
+
+        <article class="education-card">
+          <div class="timeline-dot"></div>
+          <div>
+            <h3>Secondary School Education (10th)</h3>
+            <p class="muted">Stella Maris Convent School, Rajura</p>
+            <p>Passing year: 2020</p>
+            <p class="muted">Schooling period: 2007–2020</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I'M WORKING WITH</p>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-lead">A snapshot of the tools and technologies I have used or am currently learning.</p>
+        <div class="skill-grid">
+          <article class="skill-card"><h3>Programming</h3><p>C++</p></article>
+          <article class="skill-card"><h3>Frontend</h3><p>HTML5 · CSS · JavaScript</p></article>
+          <article class="skill-card"><h3>Backend</h3><p>Node.js · Express.js · Flask <span class="skill-note">(learning / project use)</span></p></article>
+          <article class="skill-card"><h3>Libraries &amp; Tools</h3><p>React.js · Git · GitHub · VS Code</p></article>
+          <article class="skill-card"><h3>Real-time Development</h3><p>Socket.IO · WebSockets · Monaco Editor</p></article>
+          <article class="skill-card"><h3>Currently Improving</h3><p>Data Structures &amp; Algorithms · Full-stack development</p></article>
+        </div>
+        <p class="small-note">Keep only the skills you can comfortably explain in an interview. Add databases only after you have worked with one.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>AI-Powered Spam Detection System</h3>
+            <p>A final-year academic project focused on identifying spam messages using machine-learning techniques. The website interface is being developed separately from the detection backend.</p>
+            <p class="tech-list">HTML · CSS · JavaScript · Python / Flask <span class="skill-note">(backend in progress)</span></p>
+            <a class="text-link" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub profile / project →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>Collaborative Code Editor</h3>
+            <p>A real-time collaborative coding editor concept for pair programming, team projects and remote learning, with a shared code-editing workspace.</p>
+            <p class="tech-list">React.js · Monaco Editor · Node.js · Socket.IO</p>
+            <a class="text-link" href="https://code-collab-murex.vercel.app/" target="_blank" rel="noopener">View live project →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Image &amp; PDF Utility Website</h3>
+            <p>A web utility project for image compression and conversion, image-to-PDF creation and PDF merging, using a browser interface with a Node.js backend.</p>
+            <p class="tech-list">HTML · CSS · JavaScript · jQuery · Node.js · Express</p>
+            <a class="text-link" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">Add project repository →</a>
+          </article>
+        </div>
+        <p class="small-note">Replace the sample GitHub destinations with the exact repository URLs before publishing.</p>
+      </div>
+    </section>
+
+    <section class="section resume-section" id="resume">
+      <div class="container resume-row">
+        <div>
+          <p class="eyebrow">MORE DETAILS</p>
+          <h2 class="section-title">My Resume</h2>
+          <p>View my resume for my education, projects and technical background.</p>
+        </div>
+        <a class="btn btn-primary" href="afshan.resume.pdf" target="_blank" rel="noopener">View / Download PDF</a>
+      </div>
+    </section>
+
+    <section class="section section-light" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-lead">Have an opportunity, project idea or suggestion? Feel free to get in touch.</p>
+          <div class="contact-links">
+            <p><strong>Phone:</strong> <a href="tel:+917387365773">7387365772</a></p>
+            <p><strong>Location:</strong> Moulana Azad Chowk, Rajura, District Chandrapur, Maharashtra</p>
+            <p><strong>Email:</strong> <a href="mailto:afshanqureshi223@gmail.com">afshanqureshi223@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank" rel="noopener">linkedin.com/in/YOUR-LINKEDIN</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="visitorName">Your name</label>
+          <input type="text" id="visitorName" name="name" placeholder="Enter your name" required>
+          <label for="visitorEmail">Your email</label>
+          <input type="email" id="visitorEmail" name="email" placeholder="Enter your email" required>
+          <label for="visitorMessage">Message</label>
+          <textarea id="visitorMessage" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-note" id="formNote" aria-live="polite">Your email application will open with the message ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Afshan Qureshi</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
